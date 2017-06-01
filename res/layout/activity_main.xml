@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_background"
+    android:paddingLeft="@dimen/DP10"
+    android:paddingRight="@dimen/DP10" >
+
+    <RelativeLayout
+        android:id="@+id/header_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/img_settings" />
+
+        <ImageView
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_search" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/header_title" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/footer_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/appforlao_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/link_one" />
+
+        <ImageView
+            android:id="@+id/rateforus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/link_two" />
+
+        <ImageView
+             android:id="@+id/mail_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/link_three" />
+
+        <ImageView
+             android:id="@+id/facebook_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/link_four" />
+
+        <ImageView
+             android:id="@+id/twitter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/link_five" />
+
+        <ImageView
+             android:id="@+id/moreapps_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/link_six" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/middle_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer_rl"
+        android:layout_below="@+id/header_rl"
+        android:gravity="center_horizontal" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scrollbars="none" 
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/DP25" >
+
+                <ImageView
+                    android:id="@+id/basic_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/basic_btn" />
+
+                <ImageView
+                     android:id="@+id/days_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/days_btn" />
+
+                <ImageView
+                     android:id="@+id/direction_transport_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/direction_transport_btn" />
+
+                <ImageView
+                     android:id="@+id/lao_food_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lao_food_btn" />
+
+                <ImageView
+                     android:id="@+id/place_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/place_btn" />
+
+                <ImageView
+                     android:id="@+id/vocabulary_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vocabulary_btn" />
+
+                <ImageView
+                     android:id="@+id/months_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/months_btn" />
+
+                <ImageView
+                     android:id="@+id/numbers_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/numbers_btn" />
+
+                <ImageView
+                     android:id="@+id/place_to_visit_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/place_to_visit_btn" />
+
+                <ImageView
+                     android:id="@+id/lao_music_video_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/laomusicvideos_btn_ipad" />
+
+                <ImageView
+                     android:id="@+id/lao_songs_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/laosongs_btn" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

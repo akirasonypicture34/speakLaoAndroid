@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header_settingsbar" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Settings"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/SP15"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header_rl" >
+
+        <RelativeLayout
+            android:id="@+id/body_rl"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/back_home_btn"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/DP30"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/DP80"
+                    android:gravity="center"
+                    android:text="Background Music"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/SP14" />
+
+                <ImageView
+                    android:id="@+id/toggleButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/switch_off1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ll1"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/DP80"
+                    android:gravity="center"
+                    android:text="Background Music"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/SP14" />
+
+                <SeekBar
+                    android:id="@+id/seekbar1"
+                    style="@style/MyCustomProgressStyle"
+                    android:layout_width="@dimen/DP100"
+                    android:layout_height="wrap_content"                                   
+                    android:progressDrawable="@drawable/progressback"
+                    android:thumb="@drawable/slider_button"
+                    android:thumbOffset="0dp" />
+
+                <!-- <SeekBar
+                    android:id="@+id/seekbar1"
+                    android:layout_width="@dimen/DP100"
+                    android:layout_height="wrap_content"
+                    android:max="50"
+                    android:progress="30"
+                    android:progressDrawable="@drawable/progress2" /> -->
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/back_home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/btn_backtohome" />
+    </RelativeLayout>
+
+</RelativeLayout>

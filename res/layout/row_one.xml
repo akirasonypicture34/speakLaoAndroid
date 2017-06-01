@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/DP5"
+        android:paddingLeft="@dimen/DP5"
+        android:paddingTop="@dimen/DP2" >
+
+        <TextView
+            android:id="@+id/text_eng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+             android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@color/text_red_color"
+            android:textSize="@dimen/SP12" />
+
+        <TextView
+            android:id="@+id/text_thai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:lineSpacingMultiplier="1"
+            android:text="asasd"
+            android:textColor="@color/text_blue_color"
+            android:textSize="@dimen/SP12" />
+
+        <TextView
+            android:id="@+id/text_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yin-dee-ton-hab"
+            android:textColor="@color/text_pink_color"
+            android:textSize="@dimen/SP12" />
+    </LinearLayout>
+
+</RelativeLayout>

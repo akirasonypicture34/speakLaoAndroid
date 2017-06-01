@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeakLao Language</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+   
+
+    <color name="text_red_color">#E61717</color>
+    <color name="text_pink_color">#F952FC</color>
+    <color name="text_blue_color">#2630F7</color>
+    
+    <color name="divider_color">#D8D8D8</color>
+    
+    
+    
+  <!-- seekbar -->  
+    <color name="default_screen_bg">#f9f9f9</color>
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+
+</resources>

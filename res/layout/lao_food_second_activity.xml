@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/DP10" >
+
+        <ImageView
+            android:id="@+id/home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_home" />
+
+        <ImageView
+            android:id="@+id/setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DP5"
+            android:layout_toRightOf="@+id/home_btn"
+            android:src="@drawable/img_settings" />
+
+        <ImageView
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_search" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/lao_food_btn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/body_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header_rl"
+        android:layout_marginBottom="@dimen/DP25" >
+
+        <LinearLayout
+            android:id="@+id/image_full_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/DP250"
+             android:layout_marginTop="@dimen/DP15"
+            android:gravity="center"
+             >
+
+            <ImageView
+                android:id="@+id/image_full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_place"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_full_ll"
+            android:gravity="center"
+            android:padding="@dimen/DP10"
+            android:text="Watthatluang, Vientiane, Laos"
+            android:textColor="#FA0A0A"
+            android:textSize="@dimen/DP15" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txt_place"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/btn_backtohome" >
+        </ImageView>
+    </RelativeLayout>
+
+</RelativeLayout>

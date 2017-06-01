@@ -1,0 +1,63 @@
+<resources><!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+        <dimen name="header_width">170dp</dimen>
+    
+
+    <!-- Various text sizes for Normal Screens -->
+    <dimen name="SP1">1sp</dimen>
+    <dimen name="SP2">2sp</dimen>
+    <dimen name="SP3">3sp</dimen>
+    <dimen name="SP4">4sp</dimen>
+    <dimen name="SP5">5sp</dimen>
+    <dimen name="SP6">6sp</dimen>
+    <dimen name="SP7">7sp</dimen>
+    <dimen name="SP8">8sp</dimen>
+    <dimen name="SP9">9sp</dimen>
+    <dimen name="SP10">10sp</dimen>
+    <dimen name="SP12">12sp</dimen>
+        <dimen name="SP14">14sp</dimen>
+    
+    <dimen name="SP15">15sp</dimen>
+    <dimen name="SP20">20sp</dimen>
+    <dimen name="SP30">30sp</dimen>
+    <dimen name="SP35">35sp</dimen>
+    <dimen name="SP40">40sp</dimen>
+    <dimen name="SP50">50sp</dimen>
+
+    <!-- Various width and height sizes -->
+     <dimen name="DP0">0dp</dimen>
+    <dimen name="DP1">1dp</dimen>
+    <dimen name="DP2">2dp</dimen>
+    <dimen name="DP3">4dp</dimen>
+    <dimen name="DP4">5dp</dimen>
+    <dimen name="DP5">6dp</dimen>
+    <dimen name="DP6">7dp</dimen>
+    <dimen name="DP7">8dp</dimen>
+    <dimen name="DP8">9dp</dimen>
+    <dimen name="DP9">10dp</dimen>
+    <dimen name="DP10">12dp</dimen>
+    <dimen name="DP15">17dp</dimen>
+    <dimen name="DP20">22dp</dimen>
+    <dimen name="DP25">27dp</dimen>
+    <dimen name="DP30">32dp</dimen>
+     <dimen name="DP35">37dp</dimen>
+    <dimen name="DP40">42dp</dimen>
+    <dimen name="DP50">52dp</dimen>
+    <dimen name="DP80">85dp</dimen>
+    <dimen name="DP150">155dp</dimen>
+       <dimen name="DP120">125dp</dimen>
+        <dimen name="DP95">99dp</dimen>
+    
+    <dimen name="DP100">100dp</dimen>
+    <dimen name="DP200">200dp</dimen>
+     <dimen name="DP250">250dp</dimen>
+     <dimen name="font_size_small">11sp</dimen>
+    <dimen name="font_size_normal">14sp</dimen>
+    <dimen name="font_size_large">22sp</dimen>
+    <dimen name="font_size_xlarge">24sp</dimen>
+    <dimen name="font_size_xxlarge">28sp</dimen>
+    
+<dimen name="font_size_xnormal">15sp</dimen>
+
+</resources>

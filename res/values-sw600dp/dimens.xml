@@ -1,0 +1,66 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7 tablets) here    -->
+<!-- fault screen margins, per the Android Design guidelines. --> 
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+            <dimen name="header_width">110dp</dimen>
+    
+
+    <!-- Various text sizes for Normal Screens -->
+    <dimen name="SP1">2sp</dimen>
+    <dimen name="SP2">3sp</dimen>
+    <dimen name="SP3">4sp</dimen>
+    <dimen name="SP4">6sp</dimen>
+    <dimen name="SP5">7sp</dimen>
+    <dimen name="SP6">9sp</dimen>
+    <dimen name="SP7">11sp</dimen>
+    <dimen name="SP8">12sp</dimen>
+    <dimen name="SP9">14sp</dimen>
+    <dimen name="SP10">15sp</dimen>
+        <dimen name="SP12">18sp</dimen>
+    <dimen name="SP14">21sp</dimen>
+    <dimen name="SP15">23sp</dimen>
+    <dimen name="SP20">30sp</dimen>
+         <dimen name="DP35">53dp</dimen>
+    
+    <dimen name="SP30">45sp</dimen>
+    <dimen name="SP40">60sp</dimen>
+    <dimen name="SP50">75sp</dimen>
+
+    <!-- Various width and height sizes -->
+    <dimen name="DP1">2dp</dimen>
+    <dimen name="DP2">3dp</dimen>
+    <dimen name="DP3">4dp</dimen>
+    <dimen name="DP4">6dp</dimen>
+    <dimen name="DP5">7dp</dimen>
+    <dimen name="DP6">9dp</dimen>
+    <dimen name="DP7">11dp</dimen>
+    <dimen name="DP8">12dp</dimen>
+    <dimen name="DP9">14dp</dimen>
+    <dimen name="DP10">15dp</dimen>
+    <dimen name="DP15">22dp</dimen>
+    <dimen name="DP20">30dp</dimen>
+    <dimen name="DP25">38dp</dimen>
+    <dimen name="DP30">45dp</dimen>
+    <dimen name="DP40">60dp</dimen>
+    <dimen name="DP50">75dp</dimen>
+     <dimen name="DP80">120dp</dimen>
+    <dimen name="DP150">225dp</dimen>
+    <dimen name="DP100">150dp</dimen>
+           <dimen name="DP120">180dp</dimen>
+    
+    <dimen name="DP200">300dp</dimen>
+    <dimen name="DP230">345dp</dimen>
+     <dimen name="DP250">375dp</dimen>
+     
+        <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_normal">21sp</dimen>
+    <dimen name="font_size_large">28sp</dimen>
+    <dimen name="font_size_xlarge">32sp</dimen>
+      <dimen name="font_size_xxlarge">42sp</dimen>
+      
+        <dimen name="font_size_xnormal">24sp</dimen>
+</resources>
